@@ -10,6 +10,7 @@ const Marquee = () => {
                     <h1 key={1} className="py-2 text-3xl font-bold leading-none
                     tracking-tighter lg:text-7xl">
                         {MARQUEE_TEXT}
+                        
                     </h1>
                 ))}
             </div>
