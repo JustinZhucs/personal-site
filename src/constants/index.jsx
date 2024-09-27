@@ -30,7 +30,7 @@ export const MARQUEE_TEXT =
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Project 1",
     description:
       "A full-featured e-commerce website built with React and Node.js.",
     imgSrc: project1,
@@ -38,7 +38,7 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "Social Media App",
+    title: "Project 2",
     description:
       "A social media application with real-time chat and notifications.",
     imgSrc: project2,
@@ -46,7 +46,7 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "Project 3",
     description:
       "A personal portfolio website to showcase projects and skills.",
     imgSrc: project3,
@@ -54,7 +54,7 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Project 4",
     description:
       "A blogging platform with user authentication and content management.",
     imgSrc: project4,
@@ -62,14 +62,14 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    title: "Task Management Tool",
+    title: "Project 5",
     description: "A task management tool to organize and prioritize work.",
     imgSrc: project5,
     link: "https://example.com/task-management-tool",
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Project 6",
     description:
       "An online learning platform offering various courses and resources.",
     imgSrc: project6,
@@ -77,21 +77,21 @@ export const PROJECTS = [
   },
   {
     id: 7,
-    title: "Fitness Tracker",
+    title: "Project 7",
     description: "A mobile application to track fitness activities and goals.",
     imgSrc: project7,
     link: "https://example.com/fitness-tracker",
   },
   {
     id: 8,
-    title: "Recipe App",
+    title: "Project 8",
     description: "An app for browsing and saving various cooking recipes.",
     imgSrc: project8,
     link: "https://example.com/recipe-app",
   },
   {
     id: 9,
-    title: "Weather Dashboard",
+    title: "Project 9",
     description:
       "A weather dashboard providing current weather data and forecasts.",
     imgSrc: project9,
@@ -148,6 +148,6 @@ export const SOCIAL_MEDIA_LINKS = [
 
 export const CONTACT = {
   text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, Id love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out to discuss how we can work together to achieve your goals.",
-  email: "hi@benson.langford.me",
-  phone: "+(221 - 7654567892)",
+  email: "123@gmail.com",
+  phone: "778-917-6913",
 };
