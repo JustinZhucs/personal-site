@@ -9,7 +9,7 @@ const Projects = () => {
                 {PROJECTS.map((project) => (
                     <a key={project.id} href={project.link} target="_blank" 
                     rel="noopener noreferrer" className="block">
-                        <div className="relative mb-4 overflow-hidden rounded-lg bg-white shadow-lg">
+                        <div className="relative mb-4 overflow-hidden rounded-lg bg-white shadow-lg m-14 justify-around">
                             <img src={project.imgSrc} alt={project.title}
                             className="h-auto w-full object-cover"/>
                             <div className="absolute bottom-0 left-0 right-0 m-0 p-8 text-white backdrop-blur-md">
