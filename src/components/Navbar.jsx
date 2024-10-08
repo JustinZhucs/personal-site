@@ -1,15 +1,36 @@
 import { useEffect } from "react"
 import { useState } from "react"
-import { FaBars, FaTimes } from "react-icons/fa"
+import { FaBars, FaTimes, FaCircleNotch } from "react-icons/fa"
 import { LINKS } from '../constants/index';
 import { AnimatePresence, motion } from "framer-motion";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [visible, setVisible] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen)
     }
+
+    const toggleVisible = () => {
+        const scrolled = document.documentElement.scrollTop;
+        if (scrolled > 300) {
+            setVisible(true);
+        } else if (scrolled <= 300) {
+            setVisible(false);
+        }
+    };
+
+    window.addEventListener("scroll", toggleVisible);
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+            /* you can also use 'auto' behaviour
+         in place of 'smooth' */
+        });
+    };
 
     useEffect(() => {
         if (isOpen) {
@@ -36,6 +57,12 @@ const Navbar = () => {
 
     return (
         <>
+        <nav className="fixed left-0 top-0 z-30 p-4">
+            <button onClick={scrollToTop} className="rounded-md p-2 transition-all duration-150" 
+                style={{ display: visible ? "inline" : "none" }}>
+                <FaCircleNotch />
+            </button>
+        </nav>
         <nav className="fixed right-0 top-0 z-30 p-4">
             <button onClick={toggleMenu} className="rounded-md p-2">
                 {isOpen ? (
