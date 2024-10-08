@@ -55,13 +55,22 @@ const Navbar = () => {
         visible: {opacity: 1, y: 0}
     }
 
+    const navVariants = {
+        hidden: {opacity: 0, x: -20},
+        visible: {opacity: 1, x: 0}
+    }
+
     return (
         <>
         <nav className="fixed left-0 top-0 z-30 p-4">
-            <button onClick={scrollToTop} className="rounded-md p-2 transition-all duration-150" 
-                style={{ display: visible ? "inline" : "none" }}>
-                <FaCircleNotch />
-            </button>
+            <motion.button onClick={scrollToTop} 
+                className="rounded-md p-2" 
+                variants={navVariants}
+                initial="hidden" 
+                animate={visible ? "visible" : "hidden"} // Trigger animation based on 'visible'
+            >
+                <FaCircleNotch className="-translate-x-1 transition-all duration-150"/>
+            </motion.button>
         </nav>
         <nav className="fixed right-0 top-0 z-30 p-4">
             <button onClick={toggleMenu} className="rounded-md p-2">
