@@ -11,7 +11,7 @@ const Projects = () => {
                     rel="noopener noreferrer" className="block">
                         <div className="relative mb-4 overflow-hidden rounded-lg bg-white shadow-lg m-14 justify-around">
                             <img src={project.imgSrc} alt={project.title}
-                            className="h-auto w-full object-cover"/>
+                            className="h-auto w-full object-covegyuccr"/>
                             <div className="absolute bottom-0 left-0 right-0 m-0 p-8 text-white backdrop-blur-md">
                                 <h3 className="text-3xl">{project.title}</h3>
                                 <p className="text-lg">{project.description}</p>
