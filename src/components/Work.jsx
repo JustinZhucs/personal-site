@@ -13,7 +13,7 @@ const Work = () => {
                             <p className="py-4 tracking-wide text-md lg:text-xl">{experience.role}</p>
                             <p className="py-4 text-md lg:text-xl">{experience.year}</p>
                         </div>
-                        <p className="font-sans text-gray-400 text:md lg:text-lg ">{experience.description}</p>
+                        <p className="text-gray-400 text:md lg:text-lg ">{experience.description}</p>
                     </div>
                 ))}
             </div>

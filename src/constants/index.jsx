@@ -106,7 +106,7 @@ export const ABOUT =
 export const EXPERIENCES = [
   {
     company: "University of Waterloo",
-    role: "Presentation Technologies Support Technician",
+    role: "Presentation Technologies - Support Technician",
     year: "09/2024 - Present",
     description:
       // "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
