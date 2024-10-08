@@ -17,7 +17,7 @@ const Contact = () => {
                     </a>
                 ))}
             </div>
-            <p className="my-8 text-center text-gray-400">&copy; Justin Zhu 2024. All rights reserved.</p>
+            <p className="my-8 text-center text-gray-400">&copy; 2024 Justin Zhu. All rights reserved.</p>
         </section>
     )
 }
