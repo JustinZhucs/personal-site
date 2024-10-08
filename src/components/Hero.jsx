@@ -10,7 +10,7 @@ const Hero = () => {
                     Justin <br /> Zhu
                 </h1>
                 <div className="mt-8">
-                    <a href="/Benson-Langford.pdf"
+                    <a href="public/Resume-Chenshuo-Zhu.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         download
