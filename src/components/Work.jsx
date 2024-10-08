@@ -4,7 +4,7 @@ import { EXPERIENCES } from "../constants";
 const Work = () => {
     return (
         <section id="experience">
-            <h2 className="my-12 text-center text-3xl lg:text-6xl">Work Experience</h2>
+            <h2 className="mb-5 my-12 mt-18 text-center text-3xl lg:text-6xl">Work Experience</h2>
             <div className="mx-auto max-w-6xl">
                 {EXPERIENCES.map((experience, id) => (
                     <div key={id} className="mx-4 mb-20">
@@ -13,7 +13,7 @@ const Work = () => {
                             <p className="py-4 tracking-wide lg:text-xl">{experience.role}</p>
                             <p className="py-4 lg:text-xl">{experience.year}</p>
                         </div>
-                        <p className="font-sans text-gray-400">{experience.description}</p>
+                        <p className="font-sans text-gray-400 text-lg ">{experience.description}</p>
                     </div>
                 ))}
             </div>
