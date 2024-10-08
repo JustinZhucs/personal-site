@@ -25,7 +25,7 @@ export const LINKS = [
 ];
 
 export const MARQUEE_TEXT =
-  "React, Next.js, Node.js, Tailwind, PostgreSQL, Javascript/TypeScript, Java, C/C++, Python, C#, Bash, Racket,. ";
+  "React, Next.js, Node.js, Tailwind, Javascript/TypeScript, PHP, SQL, Java, C/C++, Python, C#, Bash, Git, Racket,. ";
 
 export const PROJECTS = [
   {
