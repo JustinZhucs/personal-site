@@ -8,10 +8,10 @@ const Work = () => {
             <div className="mx-10 lg:mx-20">
                 {EXPERIENCES.map((experience, id) => (
                     <div key={id} className="mx-4 mb-20">
-                        <h2 className="font-medium text-xl lg:text-2xl">{experience.company}</h2>
+                        <h2 className="font-medium text-lg lg:text-2xl">{experience.company}</h2>
                         <div className="flex justify-between">
-                            <p className="py-4 tracking-wide text-lg lg:text-xl">{experience.role}</p>
-                            <p className="py-4 text-lg lg:text-xl">{experience.year}</p>
+                            <p className="py-4 tracking-wide text-md lg:text-xl">{experience.role}</p>
+                            <p className="py-4 text-md lg:text-xl">{experience.year}</p>
                         </div>
                         <p className="font-sans text-gray-400 text:md lg:text-lg ">{experience.description}</p>
                     </div>
