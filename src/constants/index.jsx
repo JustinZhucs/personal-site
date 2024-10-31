@@ -105,6 +105,14 @@ export const ABOUT =
 
 export const EXPERIENCES = [
   {
+    company: "Beyz AI",
+    role: "Full Stack Developer",
+    year: "09/2024 - Present",
+    description:
+      // "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
+      "As a full stack developer at Beyz AI, I play a key role in delivering seamless technical support for presentation technologies at the University of Waterloo. I ensure the smooth execution of events by expertly troubleshooting and setting up audio-visual equipment, including projectors and microphones. Additionally, I engage in testing and optimizing 3D printing tools while collaborating with the IT team to address complex technical issues and maintain cutting-edge equipment across campus.",
+  },
+  {
     company: "University of Waterloo",
     role: "Presentation Technologies - Support Technician",
     year: "09/2024 - Present",
