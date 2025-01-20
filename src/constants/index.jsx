@@ -30,73 +30,72 @@ export const MARQUEE_TEXT =
 export const PROJECTS = [
   {
     id: 1,
-    title: "Project 1",
+    title: "Portfolio",
     description:
-      "A full-featured e-commerce website built with React and Node.js.",
+      "A responsive and interactive portfolio website using React.js and Tailwind CSS.",
     imgSrc: project1,
-    link: "https://example.com/ecommerce-website",
+    link: "https://personal-site-justin.vercel.app/",
   },
   {
     id: 2,
-    title: "Project 2",
+    title: "Museum Guide Website",
     description:
-      "A social media application with real-time chat and notifications.",
+      "An interactive museum guide website featuring an intuitive global-map interface, artifact magnification tools.",
     imgSrc: project2,
-    link: "https://example.com/social-media-app",
+    link: "https://justinzhucs.github.io/Museum-Web-Project/",
   },
   {
     id: 3,
-    title: "Project 3",
+    title: "Sorcery",
     description:
-      "A personal portfolio website to showcase projects and skills.",
+      "A collectible card game in C++ with turn-based mechanics.",
     imgSrc: project3,
-    link: "https://example.com/portfolio-website",
   },
-  {
-    id: 4,
-    title: "Project 4",
-    description:
-      "A blogging platform with user authentication and content management.",
-    imgSrc: project4,
-    link: "https://example.com/blog-platform",
-  },
-  {
-    id: 5,
-    title: "Project 5",
-    description: "A task management tool to organize and prioritize work.",
-    imgSrc: project5,
-    link: "https://example.com/task-management-tool",
-  },
-  {
-    id: 6,
-    title: "Project 6",
-    description:
-      "An online learning platform offering various courses and resources.",
-    imgSrc: project6,
-    link: "https://example.com/online-learning-platform",
-  },
-  {
-    id: 7,
-    title: "Project 7",
-    description: "A mobile application to track fitness activities and goals.",
-    imgSrc: project7,
-    link: "https://example.com/fitness-tracker",
-  },
-  {
-    id: 8,
-    title: "Project 8",
-    description: "An app for browsing and saving various cooking recipes.",
-    imgSrc: project8,
-    link: "https://example.com/recipe-app",
-  },
-  {
-    id: 9,
-    title: "Project 9",
-    description:
-      "A weather dashboard providing current weather data and forecasts.",
-    imgSrc: project9,
-    link: "https://example.com/weather-dashboard",
-  },
+  // {
+  //   id: 4,
+  //   title: "Project 4",
+  //   description:
+  //     "A blogging platform with user authentication and content management.",
+  //   imgSrc: project4,
+  //   link: "https://example.com/blog-platform",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Project 5",
+  //   description: "A task management tool to organize and prioritize work.",
+  //   imgSrc: project5,
+  //   link: "https://example.com/task-management-tool",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Project 6",
+  //   description:
+  //     "An online learning platform offering various courses and resources.",
+  //   imgSrc: project6,
+  //   link: "https://example.com/online-learning-platform",
+  // },
+  // {
+  //   id: 7,
+  //   title: "Project 7",
+  //   description: "A mobile application to track fitness activities and goals.",
+  //   imgSrc: project7,
+  //   link: "https://example.com/fitness-tracker",
+  // },
+  // {
+  //   id: 8,
+  //   title: "Project 8",
+  //   description: "An app for browsing and saving various cooking recipes.",
+  //   imgSrc: project8,
+  //   link: "https://example.com/recipe-app",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Project 9",
+  //   description:
+  //     "A weather dashboard providing current weather data and forecasts.",
+  //   imgSrc: project9,
+  //   link: "https://example.com/weather-dashboard",
+  // },
 ];
 
 export const ABOUT =
