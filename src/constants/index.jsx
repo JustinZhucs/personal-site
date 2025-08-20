@@ -30,6 +30,14 @@ export const MARQUEE_TEXT =
 export const PROJECTS = [
   {
     id: 1,
+    title: "Photo Gallery",
+    description:
+      "A secure, responsive image gallery using Next.js, Tailwind CSS, Clerk, UploadThing, and Drizzle ORM.",
+    imgSrc: project4,
+    link: "https://web-gallery-jcs.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Portfolio",
     description:
       "A responsive and interactive portfolio website using React.js and Tailwind CSS.",
@@ -37,7 +45,7 @@ export const PROJECTS = [
     link: "https://personal-site-justin.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Museum Guide Website",
     description:
       "An interactive museum guide website featuring an intuitive global-map interface, artifact magnification tools.",
@@ -45,20 +53,12 @@ export const PROJECTS = [
     link: "https://justinzhucs.github.io/Museum-Web-Project/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Sorcery",
     description:
       "A collectible card game in C++ with turn-based mechanics.",
     imgSrc: project3,
   },
-  // {
-  //   id: 4,
-  //   title: "Project 4",
-  //   description:
-  //     "A blogging platform with user authentication and content management.",
-  //   imgSrc: project4,
-  //   link: "https://example.com/blog-platform",
-  // },
   // {
   //   id: 5,
   //   title: "Project 5",
@@ -105,8 +105,8 @@ export const ABOUT =
 export const EXPERIENCES = [
   {
     company: "Beyz AI",
-    role: "Full Stack Developer (part-time)",
-    year: "09/2024 - Present",
+    role: "Full Stack Developer",
+    year: "05/2025 - 08/2025",
     description:
       // "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
       "Contributed to Beyz AI's GPT-based real-time interview copilot by optimizing background data compression through advanced prompt engineering, achieving a 20% reduction in token costs. Developed a dynamic prompt versioning system with TypeScript, PostgreSQL, and Drizzle ORM, ensuring seamless updates and enhanced user experiences.",
