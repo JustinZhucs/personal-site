@@ -100,16 +100,25 @@ export const PROJECTS = [
 
 export const ABOUT =
   // "As a dedicated Full Stack Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in both front-end and back-end technologies, I excel in building robust and scalable solutions. My expertise includes working with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like MongoDB and SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.";
-  "As a passionate and driven Computer Science student at the University of Waterloo with a strong foundation in software development and a keen interest in exploring new technologies. With experience in full-stack development, I’ve worked with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends. I enjoy problem-solving and am always eager to learn and grow. Outside of coding, I’m an avid learner who thrives on tackling challenges and contributing to impactful projects, always striving to push the boundaries of my skill set.";
 
+  // "As a passionate and driven Computer Science student at the University of Waterloo with a strong foundation in software development and a keen interest in exploring new technologies. With experience in full-stack development, I’ve worked with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends. I enjoy problem-solving and am always eager to learn and grow. Outside of coding, I’m an avid learner who thrives on tackling challenges and contributing to impactful projects, always striving to push the boundaries of my skill set.";
+  "A passionate and driven Computer Science student at the University of Waterloo who builds full-stack products with TypeScript, React/Next.js, and PostgreSQL. I care about speed, reliability, and shipping work that's easy to maintain. Lately I've been into AI tooling, prompt design, and making apps feel polished and responsive. I am passionate about continuous learning and keeping up-to-date with the latest industry trends. Outside of coding, I'm an avid learner who thrives on tackling challenges and contributing to impactful projects, always striving to push the boundaries of my skill set.";
 export const EXPERIENCES = [
   {
     company: "Beyz AI",
     role: "Full Stack Developer",
-    year: "05/2025 - 08/2025",
+    year: "09/2025 - 12/2025",
     description:
       // "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
-      "Contributed to Beyz AI's GPT-based real-time interview copilot by optimizing background data compression through advanced prompt engineering, achieving a 20% reduction in token costs. Developed a dynamic prompt versioning system with TypeScript, PostgreSQL, and Drizzle ORM, ensuring seamless updates and enhanced user experiences.",
+      "Contributed to Beyz AI's GPT-based real-time interview assistant by optimizing background data compression through advanced prompt engineering, achieving a 20% reduction in token costs. Developed a dynamic prompt versioning system with TypeScript, PostgreSQL, and Drizzle ORM, ensuring seamless updates and enhanced user experiences.",
+  },
+  {
+    company: "YOYI TECH",
+    role: "Software Engineer",
+    year: "05/2025 - 08/2025",
+    description:
+      // "Design and development of the Supplier Management module (both frontend and backend) for the Procumbent & Billing Management System.",
+      "As a Software Engineer at YOYI TECH, I contributed to the design and development of the company’s Procurement & Billing Management System. I was responsible for building and enhancing the Supplier Management module, implementing key features using React.js, Java/Spring Boot, and PostgreSQL. Additionally, I collaborated with cross-functional teams to model and manage user and supplier data, ensuring a seamless user experience across web and mobile platforms, while integrating advanced reporting and payment gateways to streamline operations.",
   },
   {
     company: "University of Waterloo",
@@ -118,14 +127,6 @@ export const EXPERIENCES = [
     description:
       // "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
       "As a Support Technician at UW Audio and Visual Center, I play a key role in delivering seamless technical support for presentation technologies at the University of Waterloo. I ensure the smooth execution of events by expertly troubleshooting and setting up audio-visual equipment, including projectors and microphones. Additionally, I engage in testing and optimizing 3D printing tools while collaborating with the IT team to address complex technical issues and maintain cutting-edge equipment across campus.",
-  },
-  {
-    company: "Huadian Energy Development Co. Ltd",
-    role: "Full Stack Developer Intern",
-    year: "01/2024 - 05/2024",
-    description:
-      // "Design and development of the Supplier Management module (both frontend and backend) for the Procumbent & Billing Management System.",
-      "As a Full Stack Developer Intern at Huadian Energy Development Co. Ltd, I contributed to the design and development of the company’s Procurement & Billing Management System. I was responsible for building and enhancing the Supplier Management module, implementing key features using React.js, Java/Spring Boot, and PostgreSQL. Additionally, I collaborated with cross-functional teams to model and manage user and supplier data, ensuring a seamless user experience across web and mobile platforms, while integrating advanced reporting and payment gateways to streamline operations.",
   },
 ];
 
