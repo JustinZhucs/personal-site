@@ -105,6 +105,14 @@ export const ABOUT =
   "A passionate and driven Computer Science student at the University of Waterloo who builds full-stack products with TypeScript, React/Next.js, and PostgreSQL. I care about speed, reliability, and shipping work that's easy to maintain. Lately I've been into AI tooling, prompt design, and making apps feel polished and responsive. I am passionate about continuous learning and keeping up-to-date with the latest industry trends. Outside of coding, I'm an avid learner who thrives on tackling challenges and contributing to impactful projects, always striving to push the boundaries of my skill set.";
 export const EXPERIENCES = [
   {
+    company: "Vishay Precision Group",
+    role: "Software Developer",
+    year: "05/2026 - 08/2026",
+    description:
+      // "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
+      "Incoming software developer co-op where I will apply my frontend, backend, and problem-solving experience to contribute to internal engineering software and practical business tools.",
+  },
+  {
     company: "Beyz AI",
     role: "Full Stack Developer",
     year: "09/2025 - 12/2025",
